@@ -127,14 +127,7 @@ class View
         }
 
     }
-
-    public function pageHome(){
-
-        ?> <h1>PAGE ACCEUIL</h1>
-        <?php
-    }
-
-
+    
     public function formul(){
         ?>
         <div class="single-wrap">
@@ -195,7 +188,6 @@ class View
     }
     public function render()
     {
-       $this->pageHome();
        $this->formul();
        
 
